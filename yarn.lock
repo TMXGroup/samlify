@@ -3251,9 +3251,9 @@ xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
 
-"xml-crypto@github:hammadzz/xml-crypto#2d176d93a08b1ed59db26b439c83cbee5ec16d0c":
+"xml-crypto@github:tmxmi/xml-crypto#2d176d93a08b1ed59db26b439c83cbee5ec16d0c":
   version "0.10.1"
-  resolved "https://codeload.github.com/hammadzz/xml-crypto/tar.gz/2d176d93a08b1ed59db26b439c83cbee5ec16d0c"
+  resolved "git+ssh://git@github.com/tmxmi/xml-crypto.git#2d176d93a08b1ed59db26b439c83cbee5ec16d0c"
   dependencies:
     xmldom "=0.1.19"
     xpath.js ">=0.0.3"

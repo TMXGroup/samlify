@@ -47,7 +47,7 @@
     "typescript": "^2.3.4",
     "uuid": "^3.0.1",
     "xml": "^1.0.0",
-    "xml-crypto": "https://github.com/hammadzz/xml-crypto/tarball/master",
+    "xml-crypto": "github:hammadzz/xml-crypto#2d176d93a08b1ed59db26b439c83cbee5ec16d0c",
     "xml-encryption": "^0.11.0",
     "xmldom": "^0.1.19",
     "xpath": "0.0.24"

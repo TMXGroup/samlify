@@ -21,7 +21,9 @@
     "test": "npm run build && nyc ava --verbose build/test",
     "test:pure": "nyc ava --verbose build/test",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "postinstall": "node postinstall"
+    "postinstall": "node postinstall",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "contributors": [
     "Tony Ngan <tonynwk919@gmail.com>"
@@ -51,12 +53,14 @@
     "xml-crypto": "https://github.com/hammadzz/xml-crypto/tarball/master",
     "xml-encryption": "^0.11.0",
     "xmldom": "^0.1.19",
-    "xpath": "0.0.24"
+    "xpath": "0.0.24",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "ava": "^0.19.1",
     "coveralls": "^2.11.16",
     "nyc": "^11.0.2",
     "tslint": "5.4.2"
-  }
+  },
+  "snyk": true
 }

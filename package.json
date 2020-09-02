@@ -43,7 +43,7 @@
     "deflate-js": "^0.2.3",
     "libxml-xsd": "^0.5.2",
     "lodash": "^4.17.4",
-    "node-forge": "^0.7.1",
+    "node-forge": "^0.10.0",
     "node-rsa": "^0.4.2",
     "typescript": "^2.3.4",
     "uuid": "^3.0.1",

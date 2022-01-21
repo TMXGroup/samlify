@@ -48,7 +48,7 @@
     "typescript": "^2.3.4",
     "uuid": "^3.0.1",
     "xml": "^1.0.0",
-    "xml-crypto": "https://github.com/TMXGroup/xml-crypto/tarball/master",
+    "xml-crypto": "https://github.com/TMXGroup/xml-crypto/tarball/dev-poovannan",
     "xml-encryption": "^0.11.0",
     "xmldom": "^0.1.19",
     "xpath": "0.0.24"
